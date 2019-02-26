@@ -395,7 +395,7 @@ class XMLTreeView(tk.Frame, WithCallback):
 			rets = s.replace(' ', '').replace('\n', '')
 		return rets
 
-	def add_tree_items_recursive(self, e, tv_parent, _open=True):
+	def add_tree_items_recursive(self, e, tv_parent, _open=False):
 		if not etree.iselement(e):
 			return
 		_s = []
