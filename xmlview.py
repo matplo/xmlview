@@ -561,6 +561,7 @@ class XMLEditor(tk.Frame, WithCallback):
 	def update_xml_string(self):
 		self.xml_string = self.edit.txtw.get(1.0, tk.END)
 		self.process_xml()
+		self.update_tags(self.tag_list)
 
 	def process_xml(self):
 		try:
