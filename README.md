@@ -5,6 +5,6 @@ super simple show/edit xml files
 - tested with Tkinter and lxml on a mac
 
 ## basic usage
- - $ ./xmlview.py <xmlfile>
- - $ cat <xmlfile> | ./xmlview.py
+ - $ ./xmlview.py [xmlfile]
+ - $ cat \<xmlfile\> | ./xmlview.py
 
